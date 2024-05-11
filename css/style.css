@@ -5,14 +5,17 @@
     text-align:center;
 }
 
-.navbar{
-    background-color: antiquewhite;
-    padding: 2px;
+
+
+#bicit{
+    width: 350px;
+    height: 320px;
     border-radius: 10px;
-    justify-content: end;
-    align-items: end;
-
-
+}
+#bicit:hover{
+    width: 450px;
+    height: 420px;
+    border-radius: 10px;
 }
 .etiquetas{
     background-color: aquamarine;
@@ -43,15 +46,17 @@
         border-radius: 50%;
         box-shadow: 5px 5px 6px rgba(58, 6, 126, 0.151);
 }
-#todoterreno{
-   
-    border-radius: 10px;
+ .inicio{
+    padding: 20px;
+    color: #ffffff;
+    background-color: #000;
+ }
 
-}
+
 
 /*contactenos*/
 .formulario{
-    margin: 30px;
+    margin: 100px;
     background-color: rgb(0, 0, 0);
     padding: 30px;
 border-radius: 10xp;
@@ -61,7 +66,8 @@ border-radius: 10xp;
 .inputs{
     border-radius: 10px;
     width: 80%;
-    margin: 50px 20px 20px 20px;
+    
+    padding: 15px;
     
     background-color: rgb(165, 173, 173);
 }
@@ -248,4 +254,6 @@ border-radius: 10xp;
           transform: perspective(600px) rotateY(360deg);
       }
   
-  
+  footer{
+    background-color: #000;
+  }
